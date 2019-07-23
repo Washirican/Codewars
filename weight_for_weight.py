@@ -16,3 +16,4 @@ if __name__ == '__main__':
 
     for item in result:
         print(item)
+        print('This is the result:')
