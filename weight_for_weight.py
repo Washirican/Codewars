@@ -1,3 +1,5 @@
+# Weight for weight Codewars Kata
+
 def order_weight(strng):
     # your code
     list = strng.split()
