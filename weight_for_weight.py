@@ -9,7 +9,8 @@ def order_weight(strng):
 
 
 if __name__ == '__main__':
-    result = order_weight('103 123 4444 99 2000')
+    result = order_weight('56 65 74 100 99 68 86 180 90')
+    # '100 180 90 56 65 74 68 86 99'
 
     print(result)
 
