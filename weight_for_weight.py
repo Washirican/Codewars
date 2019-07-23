@@ -4,20 +4,20 @@
 # becomes: "100 180 90 56 65 74 68 86 99"
 
 
+# TODO: Finish this...
 def order_weight(strng):
     # your code
+    print(strng)
     list = strng.split()
-    map_list = map(sum, list)
+    print(list)
+    print(type(list))
 
-    return map_list
+    print(len(list[0]))
+    print(list[1])
+    print(type(list[0][0]))
+
+    print(list[0] + list[1])
 
 
 if __name__ == '__main__':
-    result = order_weight('56 65 74 100 99 68 86 180 90')
-    # '100 180 90 56 65 74 68 86 99'
-
-    print(result)
-
-    for item in result:
-        print(item)
-        print('This is the result:')
+    order_weight('56 65 74 100 99 68 86 180 90')
