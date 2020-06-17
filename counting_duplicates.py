@@ -3,7 +3,7 @@ def duplicate_count(s):
   # return len([c for c in set(s.lower()) if s.lower().count(c)>1])
 
   #*** LEARNING ABOUT SETS
-  print("Input String:",s, "\n")
+  print("Input String:", s, "\n")
   #*** Manual definition of set using {}  
   #*** Only prints unique items. Since sets are not indexed, there is no way of knowing wich instance of duplicate item is being called  
   # thisset = {"apple", "banana", "cherry", "apple2", "kiwi", "cherry"}
@@ -38,7 +38,7 @@ def duplicate_count(s):
               dupChar = dupChar + 1
               # print ("Character", c, "repeats", s.lower().count(c), "times")
   
-  print (dupChar)
+  print(dupChar)
           
 
   

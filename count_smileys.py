@@ -1,4 +1,5 @@
-def count_smileys(arr):    
+# TODO
+def count_smileys(arr):
 #In work
     numOfSmileys = 0
     for i in arr:
